@@ -108,6 +108,7 @@ footer img{
     padding-bottom: 20px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .iconos img{
@@ -154,7 +155,9 @@ footer img{
 .rutina{
     background-color:#222a2d;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    padding: 20px 0px;
 }
 
 .rutina h2{
@@ -163,7 +166,7 @@ footer img{
     color: #f87202;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 .rutina p{
@@ -171,6 +174,7 @@ footer img{
     color:#E6E7E8;
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 20px;
 }
 
 /*Archivo de Contacto*/
@@ -217,14 +221,4 @@ footer img{
     .banner p{
         font-size: 1.6rem;
     }
-
-    
-    .iconos{
-        flex-wrap: wrap;
-    }
-    .iconos img{
-        height: 190px;
-        padding: 10px;
-    }
-
 }
