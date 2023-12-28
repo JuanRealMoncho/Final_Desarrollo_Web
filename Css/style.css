@@ -126,10 +126,8 @@ footer img{
 
 .musculos{
     background-color: #222a2d;
-}
-
-.musculos img{
-    height: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .musculos h5{
@@ -142,25 +140,14 @@ footer img{
 
 .ejercicios{
     background-color: #222a2d;
-    color: #E6E7E8;
-    font-size: 1.5rem;
-}
-
-.ejercicios img{
-    height: 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .ejercicios h5{
     color: #f87202;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     font-size: 2rem;
-}
-
-.carousel-item img {
-    max-width: 20%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
 }
 
 /*Archivo de Rutina*/
@@ -220,8 +207,8 @@ footer img{
         height: 100px;
     }
     header a{
-        font-size: 1.5rem;
-        padding: 5px;
+        font-size: 1.3rem;
+        padding: 3.5px;
     }
     
     .banner h1{
@@ -231,16 +218,13 @@ footer img{
         font-size: 1.6rem;
     }
 
+    
     .iconos{
         flex-wrap: wrap;
     }
-
     .iconos img{
         height: 190px;
         padding: 10px;
     }
 
-    .carousel-item img {
-        max-width: 70%;
-    }
 }
