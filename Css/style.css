@@ -59,12 +59,21 @@ header a{
 /*footer*/
 
 footer{
+    font-family: 'Bungee', sans-serif;
     background-color: #222a2d;
     font-size: 2rem;
     color: #f87202;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+footer p{
+    padding-bottom: 0px;
+}
+
+footer a{
+    padding: 0px 5px;
 }
 
 footer img{
@@ -120,61 +129,52 @@ footer img{
     color: #f87202;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
-/*Archivo de musculos*/
+/*Archivo de Planes*/
 
-.musculos{
+.planes{
     background-color: #222a2d;
     display: flex;
     justify-content: center;
 }
 
-.musculos h5{
-    color: #f87202;
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+.planes p{
     font-size: 2rem;
 }
 
 /*Archivo de Ejercicios*/
 
-.ejercicios{
+.carousel{
     background-color: #222a2d;
     display: flex;
     justify-content: center;
 }
 
-.ejercicios h5{
+.carousel h5{
     color: #f87202;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
     font-size: 2rem;
 }
 
-/*Archivo de Rutina*/
-.rutina{
-    background-color:#222a2d;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px 0px;
+/*Archivo de Tienda*/
+
+.tienda{
+    background-color: #222a2d;
 }
 
-.rutina h2{
-    font-family: 'Bungee', sans-serif;
-    font-size: 2.5rem;
+.tienda h5{
+    font-size: 2rem;
     color: #f87202;
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 5px;
 }
 
-.rutina p{
+.tienda p{
     font-size: 1.5rem;
-    color:#E6E7E8;
-    display: flex;
-    justify-content: space-evenly;
-    padding-bottom: 20px;
+}
+
+.tienda a{
+    font-size: 1.5rem;
 }
 
 /*Archivo de Contacto*/
@@ -214,11 +214,23 @@ footer img{
         font-size: 1.3rem;
         padding: 3.5px;
     }
+
+    footer{
+        font-size: 1.5rem;
+    }
     
     .banner h1{
         font-size: 5rem;
     }
     .banner p{
         font-size: 1.6rem;
+    }
+
+    .iconos h2{
+        padding-bottom: 15px;
+    }
+    
+    .w-25{
+        width: 100%!important;
     }
 }
