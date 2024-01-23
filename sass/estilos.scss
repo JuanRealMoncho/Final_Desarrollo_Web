@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Manrope&display=swap');
+
+$negro:#222a2d;
+$blanco:#e6e7e8;
+$naranja:#f87202;
+$font1:'Bungee', sans-serif;
+$font2:'Manrope', sans-serif; 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:$font2;
+    color:$blanco;
+    font-size: 62.5%;
+    background-color:$negro;
+}
+
+header{
+    background-color:$negro;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        height: 120px;
+        padding-top: 20px;
+    }
+    nav{
+        width: 35%;
+        ul{
+            list-style: none;
+            height: 100%;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            a{
+                font-family:$font1;
+                color:$naranja;
+                text-decoration: none;
+                font-size: 1.75rem;
+            }
+        }
+    }
+}
+
+/*footer*/
+
+footer{
+    font-family:$font1;
+    background-color:$negro;
+    font-size: 2rem;
+    color:$naranja;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        padding-bottom: 0px;
+    }
+    a{
+        padding: 0px 5px;
+        img{
+            width: 50px;
+        }
+    }
+}
+
+/*banner del index*/
+
+.banner{
+    background-image: url(../media/banner.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0px;
+    h1{
+        font-size: 7rem;
+        font-family:$font1;
+        color:$naranja;
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    }
+    p{
+        font-size: 2.5rem;
+        color:$naranja;
+        font-family:$font1;
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+        padding-top: 100px;
+    }
+}
+
+/*iconos del index*/
+
+.iconos{
+    background-color:$negro;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    img{
+        height: 200px;
+    }
+    h2{
+        font-size: 2.5rem;
+        color:$naranja;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 25px;
+    }
+}
+
+/*Archivo de Planes*/
+
+.planes{
+    background-color:$negro;
+    font-family:$font2;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    h5{
+        color:$naranja;
+        font-family:$font1;
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+    p{
+        font-size: 1.5rem;
+        padding-bottom: 30px;
+    }
+    a{
+        background-color:white;
+        color:$naranja;
+        font-size: 1.5rem;
+        border-color: black;
+    }
+}
+
+/*Archivo de Ejercicios*/
+
+.carousel{
+    background-color:$negro;
+    display: flex;
+    justify-content: center;
+    h5{
+        color:$naranja;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+        font-size: 2rem;
+    }
+}
+
+/*Archivo de Tienda*/
+
+.tienda{
+    background-color:$negro;
+    h5{
+        font-size: 2rem;
+        color:$naranja;
+    }
+    p{
+        font-family:$font2;
+        font-size: 1.7rem;
+    }
+    a{
+        font-family:$font2;
+        font-size: 1.5rem;
+        color:$naranja;
+    }
+}
+
+/*Archivo de Contacto*/
+
+.contacto{
+    background-color:$negro;
+    font-family:$font2;
+    color:$naranja;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 600px 20px 600px;
+    label{
+        padding: 10px 0px;
+    }
+    input{
+        font-size: 1.75rem;
+    }
+    textarea{
+        font-size: 1.75rem;
+    }
+}
+
+/*MediaQ*/
+
+@media only screen and (max-width:480px){
+
+    header{
+        flex-direction: column;
+        align-items:center;
+        img{
+            height: 100px;
+        }
+        nav{
+            ul{
+                a{
+                    font-size: 1.3rem;
+                    padding: 3.5px;
+                }
+            }
+        }
+        
+    }
+
+    footer{
+        font-size: 1.5rem;
+    }
+
+    .banner{
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+
+    iconos{
+        h2{
+            padding-bottom: 15px;
+        }
+    }
+
+    .contacto{
+        padding: 20px 50px;
+    }
+
+    .w-25{
+        width: 100%!important;
+    }
+}
