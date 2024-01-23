@@ -136,12 +136,29 @@ footer img{
 
 .planes{
     background-color: #222a2d;
+    font-family: 'Manrope', sans-serif;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
+}
+
+.planes h5{
+    color: #f87202;
+    font-family: 'Bungee', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 30px;
 }
 
 .planes p{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+
+.planes a{
+    background-color:white;
+    color:#f87202;
+    font-size: 1.5rem;
+    border-color: black;
 }
 
 /*Archivo de Ejercicios*/
@@ -170,22 +187,26 @@ footer img{
 }
 
 .tienda p{
-    font-size: 1.5rem;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.7rem;
 }
 
 .tienda a{
+    font-family: 'Manrope', sans-serif;
     font-size: 1.5rem;
+    color: #f87202;
 }
 
 /*Archivo de Contacto*/
 
 .contacto{
     background-color: #222a2d;
+    font-family: 'Manrope', sans-serif;
     color:#f87202;
     font-size: 2rem;
     display: flex;
     flex-direction: column;
-    padding: 0px 500px;
+    padding: 0px 600px 20px 600px;
 }
 
 .contacto label{
@@ -228,6 +249,10 @@ footer img{
 
     .iconos h2{
         padding-bottom: 15px;
+    }
+
+    .contacto{
+        padding: 20px 50px;
     }
     
     .w-25{
