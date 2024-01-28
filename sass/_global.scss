@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Manrope&display=swap');
+
+$negro:#222a2d;
+$blanco:#e6e7e8;
+$naranja:#f87202;
+$font1:'Bungee', sans-serif;
+$font2:'Manrope', sans-serif; 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family:$font2;
+    color:$blanco;
+    font-size: 62.5%;
+    background-color:$negro;
+}

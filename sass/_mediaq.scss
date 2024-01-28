@@ -1,0 +1,48 @@
+/*MediaQ*/
+
+@media only screen and (max-width:480px){
+
+    header{
+        flex-direction: column;
+        align-items:center;
+        img{
+            height: 100px;
+        }
+        nav{
+            ul{
+                a{
+                    font-size: 1.3rem;
+                    padding: 3.5px;
+                }
+            }
+        }
+        
+    }
+
+    footer{
+        font-size: 1.5rem;
+    }
+
+    .banner{
+        h1{
+            font-size: 5rem;
+        }
+        p{
+            font-size: 1.6rem;
+        }
+    }
+
+    iconos{
+        h2{
+            padding-bottom: 15px;
+        }
+    }
+
+    .contacto{
+        padding: 20px 50px;
+    }
+
+    .w-25{
+        width: 100%!important;
+    }
+}

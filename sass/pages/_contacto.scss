@@ -1,0 +1,20 @@
+/*Archivo de Contacto*/
+
+.contacto{
+    background-color:$negro;
+    font-family:$font2;
+    color:$naranja;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 600px 20px 600px;
+    label{
+        padding: 10px 0px;
+    }
+    input{
+        font-size: 1.75rem;
+    }
+    textarea{
+        font-size: 1.75rem;
+    }
+}

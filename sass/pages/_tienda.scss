@@ -1,0 +1,18 @@
+/*Archivo de Tienda*/
+
+.tienda{
+    background-color:$negro;
+    h5{
+        font-size: 2rem;
+        color:$naranja;
+    }
+    p{
+        font-family:$font2;
+        font-size: 1.7rem;
+    }
+    a{
+        font-family:$font2;
+        font-size: 1.5rem;
+        color:$naranja;
+    }
+}

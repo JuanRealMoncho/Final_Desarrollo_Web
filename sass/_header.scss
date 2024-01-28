@@ -1,0 +1,27 @@
+/*Header*/
+
+header{
+    background-color:$negro;
+    display: flex;
+    justify-content: space-evenly;
+    img{
+        height: 120px;
+        padding-top: 20px;
+    }
+    nav{
+        width: 35%;
+        ul{
+            list-style: none;
+            height: 100%;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            a{
+                font-family:$font1;
+                color:$naranja;
+                text-decoration: none;
+                font-size: 1.75rem;
+            }
+        }
+    }
+}

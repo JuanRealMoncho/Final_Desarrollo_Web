@@ -12,6 +12,7 @@ html {
   background-color: #222a2d;
 }
 
+/*Header*/
 header {
   background-color: #222a2d;
   display: flex;
@@ -38,7 +39,7 @@ header nav ul a {
   font-size: 1.75rem;
 }
 
-/*footer*/
+/*Footer*/
 footer {
   font-family: "Bungee", sans-serif;
   background-color: #222a2d;
@@ -210,4 +211,4 @@ footer a img {
   }
 }
 
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,45 @@
+/*banner del index*/
+
+.banner{
+    background-image: url(../media/banner.jpg);
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0px;
+    h1{
+        font-size: 7rem;
+        font-family:$font1;
+        color:$naranja;
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+    }
+    p{
+        font-size: 2.5rem;
+        color:$naranja;
+        font-family:$font1;
+        text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+        padding-top: 100px;
+    }
+}
+
+/*iconos del index*/
+
+.iconos{
+    background-color:$negro;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    img{
+        height: 200px;
+    }
+    h2{
+        font-size: 2.5rem;
+        color:$naranja;
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 25px;
+    }
+}
