@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Manrope&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+  color: #e6e7e8;
+  font-size: 62.5%;
+  background-color: #222a2d;
+}
+
+header {
+  background-color: #222a2d;
+  display: flex;
+  justify-content: space-evenly;
+}
+header img {
+  height: 120px;
+  padding-top: 20px;
+}
+header nav {
+  width: 35%;
+}
+header nav ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul a {
+  font-family: "Bungee", sans-serif;
+  color: #f87202;
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+
+/*footer*/
+footer {
+  font-family: "Bungee", sans-serif;
+  background-color: #222a2d;
+  font-size: 2rem;
+  color: #f87202;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  padding-bottom: 0px;
+}
+footer a {
+  padding: 0px 5px;
+}
+footer a img {
+  width: 50px;
+}
+
+/*banner del index*/
+.banner {
+  background-image: url(../media/banner.jpg);
+  height: 800px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 150px 0px;
+}
+.banner h1 {
+  font-size: 7rem;
+  font-family: "Bungee", sans-serif;
+  color: #f87202;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+}
+.banner p {
+  font-size: 2.5rem;
+  color: #f87202;
+  font-family: "Bungee", sans-serif;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+  padding-top: 100px;
+}
+
+/*iconos del index*/
+.iconos {
+  background-color: #222a2d;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.iconos img {
+  height: 200px;
+}
+.iconos h2 {
+  font-size: 2.5rem;
+  color: #f87202;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 25px;
+}
+
+/*Archivo de Planes*/
+.planes {
+  background-color: #222a2d;
+  font-family: "Manrope", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.planes h5 {
+  color: #f87202;
+  font-family: "Bungee", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 30px;
+}
+.planes p {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+.planes a {
+  background-color: white;
+  color: #f87202;
+  font-size: 1.5rem;
+  border-color: black;
+}
+
+/*Archivo de Ejercicios*/
+.carousel {
+  background-color: #222a2d;
+  display: flex;
+  justify-content: center;
+}
+.carousel h5 {
+  color: #f87202;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  font-size: 2rem;
+}
+
+/*Archivo de Tienda*/
+.tienda {
+  background-color: #222a2d;
+}
+.tienda h5 {
+  font-size: 2rem;
+  color: #f87202;
+}
+.tienda p {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.7rem;
+}
+.tienda a {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.5rem;
+  color: #f87202;
+}
+
+/*Archivo de Contacto*/
+.contacto {
+  background-color: #222a2d;
+  font-family: "Manrope", sans-serif;
+  color: #f87202;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 600px 20px 600px;
+}
+.contacto label {
+  padding: 10px 0px;
+}
+.contacto input {
+  font-size: 1.75rem;
+}
+.contacto textarea {
+  font-size: 1.75rem;
+}
+
+/*MediaQ*/
+@media only screen and (max-width: 480px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header img {
+    height: 100px;
+  }
+  header nav ul a {
+    font-size: 1.3rem;
+    padding: 3.5px;
+  }
+  footer {
+    font-size: 1.5rem;
+  }
+  .banner h1 {
+    font-size: 5rem;
+  }
+  .banner p {
+    font-size: 1.6rem;
+  }
+  iconos h2 {
+    padding-bottom: 15px;
+  }
+  .contacto {
+    padding: 20px 50px;
+  }
+  .w-25 {
+    width: 100% !important;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
