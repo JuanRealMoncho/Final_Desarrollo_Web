@@ -6,10 +6,10 @@
 }
 
 html {
+  background-color: #222a2d;
   font-family: "Manrope", sans-serif;
   color: #e6e7e8;
   font-size: 62.5%;
-  background-color: #222a2d;
 }
 
 /*Header*/
@@ -109,28 +109,38 @@ footer a img {
 /*Archivo de Planes*/
 .planes {
   background-color: #222a2d;
+}
+.planes h1 {
+  font-family: "Bungee", sans-serif;
+  color: #f87202;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.planes .tarjetas {
   font-family: "Manrope", sans-serif;
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
-.planes h1 {
+.planes .tarjetas h2 {
   color: #f87202;
   font-family: "Bungee", sans-serif;
   font-size: 2rem;
   padding-bottom: 20px;
 }
-.planes p {
+.planes .tarjetas p {
   font-size: 1.5rem;
   padding-bottom: 30px;
 }
-.planes a {
+.planes .tarjetas a {
   background-color: white;
   color: #f87202;
   font-size: 1.5rem;
   border-color: #f87202;
 }
-.planes a:hover {
+.planes .tarjetas a:hover {
   background-color: #222a2d;
   border-color: #f87202;
   color: #f87202;
@@ -140,19 +150,27 @@ footer a img {
 .ejercicios {
   background-color: #222a2d;
 }
+.ejercicios h1 {
+  font-family: "Bungee", sans-serif;
+  color: #f87202;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
 .ejercicios .col-lg {
   display: flex;
   justify-content: center;
   padding: 15px;
 }
-.ejercicios h1 {
+.ejercicios h2 {
   display: flex;
   justify-content: center;
   color: #f87202;
   font-family: "Bungee", sans-serif;
   padding: 10px 0px;
 }
-.ejercicios h2 {
+.ejercicios h3 {
   font-family: "Manrope", sans-serif;
   color: #f87202;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
@@ -164,6 +182,14 @@ footer a img {
   background-color: #222a2d;
 }
 .tienda h1 {
+  font-family: "Bungee", sans-serif;
+  color: #f87202;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.tienda h2 {
   font-size: 2rem;
   color: #f87202;
 }
@@ -192,6 +218,14 @@ footer a img {
   display: flex;
   flex-direction: column;
   padding: 0px 600px 20px 600px;
+}
+.contacto h1 {
+  font-family: "Bungee", sans-serif;
+  color: #f87202;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
 }
 .contacto label {
   padding: 10px 0px;
@@ -229,8 +263,11 @@ footer a img {
   iconos h2 {
     padding-bottom: 15px;
   }
-  .ejercicios h1 {
-    font-size: 1.7rem;
+  .ejercicios h2 {
+    font-size: 2rem;
+  }
+  .tienda h1 {
+    font-size: 3rem;
   }
   .contacto {
     padding: 20px 50px;
@@ -244,24 +281,12 @@ footer a img {
     flex-direction: column;
     align-items: center;
   }
-  header img {
-    height: 100px;
-  }
   header nav ul a {
     font-size: 2rem;
     padding: 5px;
   }
   .banner p {
     padding: 100px 30px;
-  }
-  .planes h1 {
-    font-size: 3rem;
-  }
-  .planes p {
-    font-size: 2rem;
-  }
-  .planes a {
-    font-size: 2rem;
   }
   .contacto {
     padding: 20px 50px;

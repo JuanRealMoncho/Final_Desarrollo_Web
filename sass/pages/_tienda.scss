@@ -1,8 +1,17 @@
 /*Archivo de Tienda*/
 
+
 .tienda{
     background-color:$negro;
     h1{
+        font-family: $font1;
+        color:$naranja;
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    h2{
         font-size: 2rem;
         color:$naranja;
     }
