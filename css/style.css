@@ -290,7 +290,7 @@ footer a img {
   }
   .banner p {
     font-size: 2rem;
-    padding: 10px;
+    padding-top: 150px;
   }
   .w-50 {
     width: 50% !important;
@@ -300,10 +300,6 @@ footer a img {
   }
 }
 @media only screen and (min-width: 979px) and (max-width: 1500px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
   header nav ul a {
     padding: 10px;
   }

@@ -83,7 +83,7 @@
         }
         p{
             font-size: 2rem;
-            padding: 10px;
+            padding-top: 150px;
         }
     }
 
@@ -99,8 +99,6 @@
 @media only screen and (min-width:979px) and (max-width:1500px){
 
     header{
-        flex-direction: column;
-        align-items:center;
         nav{
             ul{
                 a{
