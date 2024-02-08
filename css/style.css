@@ -273,7 +273,7 @@ footer a img {
     font-size: 3rem;
   }
   .contacto {
-    padding: 20px 100px;
+    padding: 20px 50px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 978px) {
@@ -296,7 +296,7 @@ footer a img {
     width: 50% !important;
   }
   .contacto {
-    padding: 20px 100px;
+    padding: 20px 75px;
   }
 }
 @media only screen and (min-width: 979px) and (max-width: 1500px) {
@@ -307,7 +307,7 @@ footer a img {
     width: 70% !important;
   }
   .contacto {
-    padding: 20px 100px;
+    padding: 20px 250px;
   }
 }
 
