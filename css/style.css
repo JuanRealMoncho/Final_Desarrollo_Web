@@ -282,11 +282,15 @@ footer a img {
     align-items: center;
   }
   header nav ul a {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding: 5px;
   }
+  .banner h1 {
+    font-size: 5rem;
+  }
   .banner p {
-    padding: 100px 30px;
+    font-size: 2rem;
+    padding: 10px;
   }
   .contacto {
     padding: 20px 50px;
