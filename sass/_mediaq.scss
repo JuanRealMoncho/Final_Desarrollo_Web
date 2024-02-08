@@ -44,6 +44,10 @@
         }
     }
 
+    .w-50{
+        width: 90%!important;
+    }
+
     .tienda{
         h1{
             font-size: 3rem;
@@ -51,12 +55,10 @@
     }
 
     .contacto{
-        padding: 20px 50px;
+        padding: 20px 100px;
     }
 
-    .w-50{
-        width: 90%!important;
-    }
+    
 
 }
 
@@ -85,7 +87,34 @@
         }
     }
 
+    .w-50{
+        width: 50%!important;
+    }
+
     .contacto{
-        padding: 20px 50px;
+        padding: 20px 100px;
+    }
+}
+
+@media only screen and (min-width:979px) and (max-width:1500px){
+
+    header{
+        flex-direction: column;
+        align-items:center;
+        nav{
+            ul{
+                a{
+                    padding: 10px;
+                }
+            }
+        }
+    }
+
+    .w-50{
+        width: 70%!important;
+    }
+
+    .contacto{
+        padding: 20px 100px;
     }
 }

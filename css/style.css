@@ -217,7 +217,7 @@ footer a img {
   font-size: 2rem;
   display: flex;
   flex-direction: column;
-  padding: 0px 600px 20px 600px;
+  padding: 0px 500px 20px 500px;
 }
 .contacto h1 {
   font-family: "Bungee", sans-serif;
@@ -266,14 +266,14 @@ footer a img {
   .ejercicios h2 {
     font-size: 2rem;
   }
+  .w-50 {
+    width: 90% !important;
+  }
   .tienda h1 {
     font-size: 3rem;
   }
   .contacto {
-    padding: 20px 50px;
-  }
-  .w-50 {
-    width: 90% !important;
+    padding: 20px 100px;
   }
 }
 @media only screen and (min-width: 481px) and (max-width: 978px) {
@@ -292,8 +292,26 @@ footer a img {
     font-size: 2rem;
     padding: 10px;
   }
+  .w-50 {
+    width: 50% !important;
+  }
   .contacto {
-    padding: 20px 50px;
+    padding: 20px 100px;
+  }
+}
+@media only screen and (min-width: 979px) and (max-width: 1500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav ul a {
+    padding: 10px;
+  }
+  .w-50 {
+    width: 70% !important;
+  }
+  .contacto {
+    padding: 20px 100px;
   }
 }
 
