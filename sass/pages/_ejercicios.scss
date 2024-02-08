@@ -1,10 +1,21 @@
 /*Archivo de Ejercicios*/
 
-.carousel{
-    background-color:$negro;
-    display: flex;
-    justify-content: center;
-    h5{
+.ejercicios{
+    background-color: $negro;
+    .col-lg{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        color: $naranja;
+        font-family: $font1;
+        padding: 10px 0px;
+    }
+    h2{
+        font-family: $font2;
         color:$naranja;
         text-shadow: 1px 1px 1px rgba(0,0,0,0.6);
         font-size: 2rem;

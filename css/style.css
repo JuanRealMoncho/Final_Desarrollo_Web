@@ -38,6 +38,9 @@ header nav ul a {
   text-decoration: none;
   font-size: 1.75rem;
 }
+header nav ul a:hover {
+  color: #e6e7e8;
+}
 
 /*Footer*/
 footer {
@@ -111,11 +114,11 @@ footer a img {
   justify-content: center;
   padding-bottom: 20px;
 }
-.planes h5 {
+.planes h1 {
   color: #f87202;
   font-family: "Bungee", sans-serif;
   font-size: 2rem;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 .planes p {
   font-size: 1.5rem;
@@ -125,16 +128,32 @@ footer a img {
   background-color: white;
   color: #f87202;
   font-size: 1.5rem;
-  border-color: black;
+  border-color: #f87202;
+}
+.planes a:hover {
+  background-color: #222a2d;
+  border-color: #f87202;
+  color: #f87202;
 }
 
 /*Archivo de Ejercicios*/
-.carousel {
+.ejercicios {
   background-color: #222a2d;
+}
+.ejercicios .col-lg {
   display: flex;
   justify-content: center;
+  padding: 15px;
 }
-.carousel h5 {
+.ejercicios h1 {
+  display: flex;
+  justify-content: center;
+  color: #f87202;
+  font-family: "Bungee", sans-serif;
+  padding: 10px 0px;
+}
+.ejercicios h2 {
+  font-family: "Manrope", sans-serif;
   color: #f87202;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
   font-size: 2rem;
@@ -144,7 +163,7 @@ footer a img {
 .tienda {
   background-color: #222a2d;
 }
-.tienda h5 {
+.tienda h1 {
   font-size: 2rem;
   color: #f87202;
 }
@@ -155,6 +174,12 @@ footer a img {
 .tienda a {
   font-family: "Manrope", sans-serif;
   font-size: 1.5rem;
+  color: #f87202;
+  border-color: #f87202;
+}
+.tienda a:hover {
+  background-color: #222a2d;
+  border-color: #f87202;
   color: #f87202;
 }
 
@@ -188,7 +213,7 @@ footer a img {
     height: 100px;
   }
   header nav ul a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 3.5px;
   }
   footer {
@@ -199,15 +224,47 @@ footer a img {
   }
   .banner p {
     font-size: 1.6rem;
+    padding: 10px;
   }
   iconos h2 {
     padding-bottom: 15px;
   }
+  .ejercicios h1 {
+    font-size: 1.7rem;
+  }
   .contacto {
     padding: 20px 50px;
   }
-  .w-25 {
-    width: 100% !important;
+  .w-50 {
+    width: 90% !important;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 978px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  header img {
+    height: 100px;
+  }
+  header nav ul a {
+    font-size: 2rem;
+    padding: 5px;
+  }
+  .banner p {
+    padding: 100px 30px;
+  }
+  .planes h1 {
+    font-size: 3rem;
+  }
+  .planes p {
+    font-size: 2rem;
+  }
+  .planes a {
+    font-size: 2rem;
+  }
+  .contacto {
+    padding: 20px 50px;
   }
 }
 

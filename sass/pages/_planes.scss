@@ -6,11 +6,11 @@
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
-    h5{
+    h1{
         color:$naranja;
         font-family:$font1;
         font-size: 2rem;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     p{
         font-size: 1.5rem;
@@ -20,6 +20,11 @@
         background-color:white;
         color:$naranja;
         font-size: 1.5rem;
-        border-color: black;
+        border-color:$naranja;
+    }
+    a:hover{
+        background-color:$negro;
+        border-color:$naranja;
+        color:$naranja;
     }
 }

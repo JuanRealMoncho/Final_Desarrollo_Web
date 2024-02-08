@@ -2,7 +2,7 @@
 
 .tienda{
     background-color:$negro;
-    h5{
+    h1{
         font-size: 2rem;
         color:$naranja;
     }
@@ -13,6 +13,12 @@
     a{
         font-family:$font2;
         font-size: 1.5rem;
+        color:$naranja;
+        border-color:$naranja;
+    }
+    a:hover{
+        background-color:$negro;
+        border-color:$naranja;
         color:$naranja;
     }
 }
